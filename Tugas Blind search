@@ -1,14 +1,14 @@
 NAMA : Hamdan Kamal Fahrudin
 NIM     : 5311421084
-#TEKNIK PENCARIAN BLIND SEARCH
+# TEKNIK PENCARIAN BLIND SEARCH
 
-#A. Tujuan Praktikum 
+# A. Tujuan Praktikum 
 Mahasiswa mampu memahami konsep blind search dan dapat mengimplementasikan program salah satu algoritma blind search pada kasus tree. Program ini dibuat dengan menggunakan bahasa pemrograman Java.
 
-#B. Dasar Teori
+# B. Dasar Teori
 Blind search adalah metode dalam ilmu komputer dan teori permainan yang digunakan untuk mengeksplorasi ruang pencarian tanpa pengetahuan sebelumnya tentang struktur atau sifatnya. Dalam konteks ini, ruang pencarian adalah himpunan semua kemungkinan keadaan atau solusi dalam sebuah masalah. Pencarian buta dimulai dari keadaan awal dan bertujuan untuk mencapai keadaan tujuan. Operator atau tindakan digunakan untuk berpindah antara keadaan-keadaan dalam ruang pencarian, dan algoritma pencarian buta sering menggunakan antrian untuk mengatur urutan eksplorasi. Dua contoh algoritma pencarian buta yang umum adalah pencarian dalam lebar, yang menjelajahi keadaan dalam urutan berdasarkan kedalaman, dan pencarian dalam dalam, yang lebih mendalam sebelum kembali ke cabang-cabang belum dieksplorasi. Pencarian buta memiliki kelebihan dalam kesederhanaan dan keuniversalan, tetapi kekurangannya adalah efisiensinya dalam ruang pencarian yang besar atau kompleks. Meskipun demikian, pencarian buta adalah dasar penting dalam pengembangan algoritma pencarian yang lebih canggih dalam bidang kecerdasan buatan dan pemecahan masalah.
 
-#C. Coding
+# C. Coding
 
     import java.util.ArrayDeque;
     import java.util.ArrayList;
@@ -138,13 +138,13 @@ Untuk kode diatas memiliki output (3,d=0) (4,d=1) (2,d=1) (5,d=2) (6,d=2) (1,d=2
  
 ![image](https://github.com/hamdankf/Blind-search/assets/149086558/7da1bb58-ab92-44c2-b609-06c1f6597657)
 
-#D. Tugas
+# D. Tugas
 1. Tentukan bagaimana algoritma BFS di atas dapat menentukan node ke 8, 6, dan 7.
 2. Ubahlah method static void main sehingga bentuk tree seperti Gambar 4.5 dapat dibentuk. Kemudian tentukan bagaimana algoritma BFS dapat menemukan node 5.
 3. Ubahlah method static void main sehingga bentuk tree seperti Gambar 4.6 dapat dibentuk. Kemudian tentukan bagaimana algoritma BFS dapat menemukan node 9.
 4. Ubahlah kode program di atas sehingga bentuk tree seperti Gambar 4.7 dapat dibentuk. Kemudian tentukan bagaimana algoritma BFS dapat menemukan node C.
 
-#E. Jawaban
+# E. Jawaban
  1. Cara BFS di atas dapat menentukan node ke 8, 6, dan 7?
 
 1. Dimulai dari node awal, yaitu node 3 (n3), yang digunakan sebagai titik awal yang diteruskan ke metode bfs(n3).
